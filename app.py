@@ -8,7 +8,7 @@ def create_app():
     @app.get("/")
     def index():
         return jsonify({
-            "message": "Simple Flask REST API",
+            "message": "Simple FlaskS RESTS API",
             "routes": [
                 {"method": "GET", "url": "/api/health"},
                 {"method": "GET", "url": "/api/tasks"},
