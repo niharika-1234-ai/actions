@@ -1,0 +1,6 @@
+.git
+.venv
+myenv3
+__pycache__
+*.py[cod]
+.env
