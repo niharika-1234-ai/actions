@@ -27,6 +27,8 @@ def create_app():
     def tasks():
         task_store = app.extensions["tasks"]
 
+
+
         if request.method == "GET":
             return jsonify(list(task_store.values()))
 
